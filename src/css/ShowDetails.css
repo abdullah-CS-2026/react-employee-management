@@ -1,0 +1,38 @@
+.showdetails-bg {
+  background-color: #0d6efd; /* same as Bootstrap primary */
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+td{
+ text-align: center;
+}
+
+
+
+.showdetails-container {
+  width: 90%;
+  border-radius: 8px;
+  background-color: rgba(36, 140, 192, 0.5);
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3);
+  padding: 1.5rem;
+}
+
+.actions-col {
+  width: 150px;
+}
+.action-btn:hover{
+cursor: pointer;
+color: red;
+}
+
+.search_icon{
+  cursor: pointer;
+}
+
+@media(min-width:261px){
+  .search_box{
+    width:100%;
+  }
+}
