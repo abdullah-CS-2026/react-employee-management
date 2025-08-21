@@ -128,7 +128,7 @@ export const ShowDetails = () => {
                 <div className="text-center mt-3">
                     <button
                         className="btn btn-success"
-                        onClick={() => navigate("/form")}
+                        onClick={() => navigate("/")}
                     >
                         Add New Employee
                     </button>
